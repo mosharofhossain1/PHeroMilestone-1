@@ -1,3 +1,28 @@
 .div1 {
     background-color: blue;
 }
+
+.bloge {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 50%;
+    border: 10px solid red;
+    box-shadow: 10px 10px 20px yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bloge2 {
+    display: inline;
+    visibility: hidden;
+}
+
+header {
+    background-image: url('image.png');
+    /* padding: 100px; */
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
