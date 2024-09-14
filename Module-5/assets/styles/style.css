@@ -42,6 +42,12 @@ body {
     border-radius: 5px;
 }
 
+.sectionTitle {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
 /* Header styles */
 header {
     background-color: #FFF8F3;
@@ -105,4 +111,31 @@ nav ul li a {
 
 .bannerImage img {
     padding-bottom: 0;
+}
+
+.aboutSection {
+    margin: 90px auto;
+    width: 900px;
+    background-color: #FFF8F3;
+    padding: 30px;
+}
+
+.aboutDesc {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.aboutInfoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.infosDetails {
+    text-align: center;
+}
+
+.infoName {
+    font-weight: bold;
 }
