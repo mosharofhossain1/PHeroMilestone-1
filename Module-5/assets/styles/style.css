@@ -139,3 +139,44 @@ nav ul li a {
 .infoName {
     font-weight: bold;
 }
+
+/* What i do section styles */
+.whatiDosection {
+    margin: 100px 0px;
+}
+
+
+
+.whatDesc {
+    margin: 30px auto;
+    width: 900px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.experianceContainer {
+    display: flex;
+    margin: 50px 0px;
+    justify-content: space-around;
+}
+
+.experianceItem {
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 4px;
+    margin: 0px 10px;
+}
+
+.exLogo {
+    margin: 10px 0px;
+}
+
+.experianceTitle {
+    margin: 20px 0px;
+}
+
+.experianceItem .expeianeDesc {
+    font-size: 18px;
+    margin: 30px 0px;
+    line-height: 25px;
+}
