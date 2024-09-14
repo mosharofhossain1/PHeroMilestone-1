@@ -89,7 +89,9 @@ nav ul li a {
     display: flex;
     align-items: center;
     margin-top: 40px;
-
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
 
 .bannerGretting {
@@ -215,4 +217,48 @@ nav ul li a {
 .downloadCv {
     text-align: center;
     margin: 30px 0px;
+}
+
+/* footer section styles */
+footer {
+    background-color: #FFF8F3;
+    padding: 120px 30px;
+    margin-top: 70px;
+}
+
+.footerDetailsContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.columnTitle {
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+.columndesc {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 15px 0px;
+    width: 600px;
+    margin: auto;
+}
+
+.socialLinks {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.socialLinks img {
+    margin-right: 10px;
+}
+
+.footerCollumn input,
+textarea {
+    display: block;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 5px;
 }
