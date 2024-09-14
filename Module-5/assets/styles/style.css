@@ -180,3 +180,39 @@ nav ul li a {
     margin: 30px 0px;
     line-height: 25px;
 }
+
+/* education section  */
+.educationinfoContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.educationDetailsInfos {
+    margin: 20px 15px;
+}
+
+.educationDetailsTitle {
+    margin: 15px 0px;
+    font-size: 25px;
+}
+
+.educationTitle {
+    margin: 15px 0px;
+    font-size: 20px;
+}
+
+.educationSubTitle {
+    font-size: 16px;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+
+.educationDesc {
+    line-height: 25px;
+    margin: 15px 0px;
+}
+
+.downloadCv {
+    text-align: center;
+    margin: 30px 0px;
+}
