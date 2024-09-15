@@ -1,11 +1,14 @@
 /* Google Fonts Cdn */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* 
 .merriweather-light {
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-style: normal;
+      font-family: "Inter Tight", sans-serif;
   }
 */
 
@@ -51,4 +54,40 @@ header {
     color: white;
     width: 600px;
     margin: 20px auto;
+}
+
+/* Discount offer section */
+.discountDetailsContainer {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.discountDetailsContainer img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.discountTitle {
+    font-weight: bold;
+    color: red;
+    font-size: 80px;
+    font-family: "Inter Tight", sans-serif;
+    margin: 20px 0px;
+}
+
+.discountSubTitle {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter Tight", sans-serif;
+    margin: 40px 0px 5px 0px;
+    color: red;
+}
+
+.discountCatagoriTitle {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Inter Tight", sans-serif;
+    margin: 20px 0px;
 }
