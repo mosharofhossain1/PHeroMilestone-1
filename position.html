@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Practice </title>
+    <style>
+        .divContainer {
+            border: 2px solid firebrick;
+            width: 400px;
+            position: relative;
+        }
+
+        .dumay {
+            border: 1px solid red;
+            width: 200px;
+            height: 100px;
+
+        }
+
+        /* .dumay2 {
+            position: relative;
+            left: 50px;
+        } */
+        /* .dumay2 {
+            position: absolute;
+            top: 50;
+            left: 100px;
+        } */
+        .custom {
+            width: 100px;
+            height: 100px;
+            border: 1px solid orange;
+        }
+
+        .dumay2 {
+            position: fixed;
+            top: 40px;
+            left: 150px;
+        }
+
+        /* .dumay2 {
+            position: sticky;
+            left: 50px;
+            top: -50px;
+        } */
+        /* .dumay2 {
+            position: static;
+            top: 50px;
+            left: 40px;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- flow related -->
+    <p>Css Postion List type</p>
+    <li>Relative</li>
+    <li>Absolute</li>
+    <li>Static</li>
+    <!-- scroll related -->
+    <li>Fixed</li>
+    <li>Sticky</li>
+    <div class="divContainer">
+        <div class="dumay dumay1">
+            <h1>Dumay 1</h1>
+        </div>
+        <div class="dumay dumay2">
+            <h1>Dumay 2</h1>
+        </div>
+        <div class="dumay dumay3">
+            <h1>Dumay 3</h1>
+        </div>
+    </div>
+
+    <div class="custom"></div>
+    <div class="custom"></div>
+    <div class="custom"></div>
+    <div class="custom"></div>
+    <div class="custom"></div>
+    <div class="custom"></div>
+    <div class="custom"></div>
+    <div class="custom"></div>
+    <div class="custom"></div>
+    <div class="custom"></div>
+
+</body>
+
+</html>
