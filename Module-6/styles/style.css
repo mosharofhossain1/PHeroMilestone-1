@@ -28,9 +28,7 @@
 /* Main css styles */
 
 /* Header banner section css */
-header {
-    /* margin-top: 30px; */
-}
+
 
 .headerBanner {
     background-image: url('../resources/Banner\ Image.png');
@@ -90,4 +88,49 @@ header {
     font-weight: bold;
     font-family: "Inter Tight", sans-serif;
     margin: 20px 0px;
+}
+
+/* Midnight section stylse */
+.midnightSection {
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+    background-position: center center;
+    margin: 50px 0px;
+    border-radius: 10px;
+}
+
+.midnightDetaisContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midnightContents {
+    padding: 15px;
+    color: white;
+    /* width: 500px; */
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.midnightTitle {
+    font-size: 60px;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.midnightDesc {
+    font-size: 18px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.midnightContents button {
+    padding: 10px;
+    border: none;
+    color: black;
+    font-weight: bold;
 }
