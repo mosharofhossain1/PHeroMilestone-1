@@ -1,0 +1,54 @@
+/* Google Fonts Cdn */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* 
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+*/
+
+/* Default css styles strt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+/* Main css styles */
+
+/* Header banner section css */
+header {
+    /* margin-top: 30px; */
+}
+
+.headerBanner {
+    background-image: url('../resources/Banner\ Image.png');
+    padding: 270px 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* border-radius: 7px; */
+    text-align: center;
+    opacity: .5;
+}
+
+.bannerTitle {
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    color: white;
+}
+
+.bannerSubTitle {
+    font-family: "Merriweather", serif;
+    font-size: 70px;
+    color: white;
+    width: 600px;
+    margin: 20px auto;
+}
