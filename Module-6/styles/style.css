@@ -134,3 +134,70 @@
     color: black;
     font-weight: bold;
 }
+
+/* Loaction section */
+.locationsection {
+    background-image: linear-gradient(#ff00003d, #ff000000);
+    text-align: center;
+    padding: 100px 0px;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.locationsection strong {
+    color: red;
+
+}
+
+.locatioPlace,
+.locationDate,
+.locationTime {
+    margin: 10px 0px;
+}
+
+.joinBtn {
+    background-color: red;
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+/* Comming soon details  */
+.commingSoonSetion {
+    margin: 40px 0px;
+}
+
+.commingSoonDetailsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.commingSoonDetails {
+    width: 33%;
+}
+
+.commingSoonDetails .ellips1Img {
+    border: 8px solid red;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.commingSoonDetails .Img96 {
+    width: 150px;
+    margin: 20px 0px;
+}
+
+.newlatterTitle {
+    color: red;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+}
+
+.commingTitle {
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+    margin: 20px 0px;
+}
