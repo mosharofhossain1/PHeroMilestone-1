@@ -201,3 +201,50 @@
     font-family: "Merriweather", serif;
     margin: 20px 0px;
 }
+
+/* Holiday section  */
+.holdaySection {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.fashionImageContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.fashionImageContainer img {
+    width: 500px;
+}
+
+.rectangleBG {
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-size: cover;
+    position: absolute; */
+    padding: 50px 0px;
+    border-radius: 7px;
+
+}
+
+.holiddayTitle {
+    font-size: 20px;
+    margin: 15px 0px;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.holidayOfferTitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0px;
+    font-family: "Merriweather", serif;
+}
+
+.holidayOfferTitle span {
+    color: red;
+}
